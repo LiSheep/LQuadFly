@@ -1,0 +1,8 @@
+D:\LQuadFly\LQuadFly\obj\x86\Debug\LQuadFly.LQuadFlyMainView.resources
+D:\LQuadFly\LQuadFly\obj\x86\Debug\LQuadFly.Properties.Resources.resources
+D:\LQuadFly\LQuadFly\obj\x86\Debug\LQuadFly.csproj.GenerateResource.Cache
+D:\LQuadFly\LQuadFly\bin\Debug\LQuadFly.exe
+D:\LQuadFly\LQuadFly\bin\Debug\LQuadFly.pdb
+D:\LQuadFly\LQuadFly\obj\x86\Debug\LQuadFly.exe
+D:\LQuadFly\LQuadFly\obj\x86\Debug\LQuadFly.pdb
+D:\LQuadFly\LQuadFly\obj\x86\Debug\LQuadFly.csprojResolveAssemblyReference.cache
