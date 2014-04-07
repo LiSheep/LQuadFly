@@ -73,6 +73,20 @@ namespace LQuadFly
                 case Dictionary.PROTOCOL_ROM_R:
                     PIDReadMessage prmsg = new PIDReadMessage();
                     byte[] prres = prmsg.dealData(data.ToArray());
+                    float[] pid = new float[6];
+                    for (int c = 0; c < 24; c+=4)
+                    {
+                        pid[c/4] = BitConverter.ToSingle(prres, c);
+                        
+                    }
+                    this.txt_rp.Text = pid[0].ToString();
+                    this.txt_ri.Text = pid[1].ToString();
+                    this.txt_rd.Text = pid[2].ToString();
+
+                    this.txt_pp.Text = pid[3].ToString();
+                    this.txt_pi.Text = pid[4].ToString();
+                    this.txt_pd.Text = pid[5].ToString();
+
                     break;
                 case Dictionary.PROTOCOL_ROM_W:
                     this.txt_serial.Text += "PID写入成功\r\n";

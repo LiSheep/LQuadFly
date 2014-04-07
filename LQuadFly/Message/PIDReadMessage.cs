@@ -30,7 +30,9 @@ namespace LQuadFly.Message
 
         public override byte[] dealData(byte[] data)
         {
-            return data.ToArray();
+            List<byte> d = data.ToList();
+            d.RemoveAt(0);
+            return d.ToArray();
         }
     }
 }
